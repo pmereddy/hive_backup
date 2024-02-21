@@ -16,7 +16,7 @@ This script takes a direct approach, connects to the metastore and reconstructs 
 ## How to run it
 To create a hive database backup for "apodev" and save it to apodev_xxxxxx.hql, run the following command
 ```
-python3 ./hive_database_ddl_backup_using_metastore.py --database apodev  --password '<password>' --host <hive_metastore_host> --port <dbport> --filename apodev_xxxxxx.hql --log_level 'DEBUG'
+python3 ./hive_database_ddl_backup_using_metastore.py --database apodev  --password '<password>' --host <hive_metastore_host> --port <dbport> --filename apodev_xxxxxx.hql
 ```
 
 ## Example output
